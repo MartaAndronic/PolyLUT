@@ -18,12 +18,11 @@ python neq2lut.py --arch jsc-m-lite/jsc-xl --checkpoint ./test_0/best_accuracy.p
 ## Citation
 Should you find this work valuable, we kindly request that you consider referencing our paper as below:
 ```
-@misc{andronic2023polylut,
-      title={PolyLUT: Learning Piecewise Polynomials for Ultra-Low Latency FPGA LUT-based Inference}, 
-      author={Marta Andronic and George A. Constantinides},
-      year={2023},
-      eprint={2309.02334},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
+@INPROCEEDINGS{polylut,
+  author={Andronic, Marta and Constantinides, George A.},
+  booktitle={2023 International Conference on Field Programmable Technology (ICFPT)}, 
+  title="{PolyLUT: Learning Piecewise Polynomials for Ultra-Low Latency FPGA LUT-based Inference}", 
+  year={2023},
+  pages={60-68},
+  doi={10.1109/ICFPT59805.2023.00012}}
 ```
